@@ -2,7 +2,7 @@
 *"Reach for the Stars in Task Management"*
 
 ## Description
-AstraTask is an AI-driven task management tool designed to automate task assignments, predict project timelines, and provide productivity insights for remote teams.
+astrataskis an AI-driven task management tool designed to automate task assignments, predict project timelines, and provide productivity insights for remote teams.
 
 ## Table of Contents
 - Introduction
@@ -14,7 +14,7 @@ AstraTask is an AI-driven task management tool designed to automate task assignm
 - Contact
 
 ## Introduction
-AstraTask leverages AI to enhance task management for remote teams, providing automated task assignments, predictive analytics, and productivity insights.
+astrataskleverages AI to enhance task management for remote teams, providing automated task assignments, predictive analytics, and productivity insights.
 
 ## Features
 - AI-driven task assignment
@@ -33,7 +33,7 @@ AstraTask leverages AI to enhance task management for remote teams, providing au
    ```bash
    git clone https://github.com/dabisstudio/AstraTask.git
    cd AstraTask
-   
+
 2. Install dependencies:
    ```bash
    npm install
@@ -53,14 +53,14 @@ AstraTask leverages AI to enhance task management for remote teams, providing au
 - Task Assignment: Create and assign tasks automatically using AI.
 - Timeline Predictions: View predicted project timelines.
 - Productivity Insights: Access insights on team productivity.
-  
+
 ### Contributing
 How to Contribute
 Fork the repository
 - Create a new branch (git checkout -b feature-branch)
 - Commit your changes (git commit -m 'Add new feature')
 - Push to the branch (git push origin feature-branch)
-  
+
 Open a Pull Request
 
 ### License

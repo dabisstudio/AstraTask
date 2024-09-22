@@ -1,0 +1,3 @@
+{
+  "extends": "@astratask/typescript/base.json"
+}

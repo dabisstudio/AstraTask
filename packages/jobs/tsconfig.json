@@ -1,0 +1,5 @@
+{
+  "extends": "@astratask/typescript/base.json",
+  "include": ["."],
+  "exclude": ["node_modules"]
+}
