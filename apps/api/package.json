@@ -10,6 +10,7 @@
     "generate": "supabase gen types --lang=typescript --local --schema public > ../../packages/supabase/src/types/db.ts"
   },
   "dependencies": {
+    "@astratask/api": "file:",
     "supabase": "^1.191.3"
   }
 }

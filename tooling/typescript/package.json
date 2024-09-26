@@ -1,4 +1,7 @@
 {
   "name": "@astratask/typescript",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@astratask/typescript": "file:"
+  }
 }
