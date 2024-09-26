@@ -14,10 +14,10 @@ const DepartureMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://astratask.run"),
-  title: "Create astratask",
+  metadataBase: new URL("https://astratask.com"),
+  title: "AstraTask - AI-Powered Task Management for Freelancers and Small Teams",
   description:
-    "A free, open-source starter kit for your next project, built with insights from dabisstudio.",
+    "AstraTask helps freelancers and small teams manage tasks, track deadlines, and automate invoicing using AI-powered tools. Organize your work and boost productivity effortlessly.",
 };
 
 export default function RootLayout({
@@ -35,7 +35,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
 
         <AnalyticsProvider />
       </body>

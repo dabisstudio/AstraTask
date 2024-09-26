@@ -14,15 +14,17 @@ export default function Page() {
       <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent pointer-events-none -z-10" />
 
       <h1 className="font-departure text-[40px] md:text-[84px] relative z-10 text-center h-[120px] md:h-auto leading-tight">
-        <AnimatedText text="Production ready code" />
+        <AnimatedText text="Reach for the Stars in Task Management" />
       </h1>
 
       <p className="relative z-10 text-center max-w-[80%] mt-0 md:mt-4">
-        An open-source starter kit based on{" "}
-        <a href="https://dabisstudio.ai?utm_source=astratask" className="underline">
-          dabisstudio
+        <a href="https://dabisstudio.com?utm_source=astratask" className="underline">
+          AstraTask
         </a>
-        .
+        {" "} is your AI-powered partner in simplifying task management for freelancers and small teams.
+        Integrating effortlessly with Trello, Slack, and email, it helps you focus on what really matters by
+        automatically prioritizing tasks,sending out invoices, and delivering personalized productivity insights.
+        With AstraTask, you’ll tackle your to-do list with ease and hit your goals faster.
       </p>
 
       {/* In process */}
@@ -31,14 +33,14 @@ export default function Page() {
       </span> */}
 
       <div className="mt-10 mb-8">
-        <CopyText value="bunx degit dabisstudio-ai/astratask astratask" />
+        <CopyText value="bunx degit dabisstudio/astratask astratask" />
       </div>
 
       <TooltipProvider delayDuration={0}>
         <Tooltip>
           <TooltipTrigger asChild>
             <a
-              href="https://news.ycombinator.com/item?id=41408929"
+              href="https://x.com/astratask"
               target="_blank"
               rel="noreferrer"
             >
@@ -61,12 +63,12 @@ export default function Page() {
                     </clipPath>
                   </defs>
                 </svg>
-                <span className="text-sm">Live on Hacker News</span>
+                <span className="text-sm">Follow us on X</span>
               </div>
             </a>
           </TooltipTrigger>
           <TooltipContent side="bottom" sideOffset={15} className="text-xs">
-            Show HN: astratask – An open-source starter kit for your next project
+            Join the Open-Source Journey: – Be part of the conversation as AstraTask builds in public!
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
