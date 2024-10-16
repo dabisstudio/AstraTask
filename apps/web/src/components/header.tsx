@@ -15,16 +15,16 @@ import { SubscribeForm } from "./subscribe-form";
 export function Header() {
   return (
     <header className="absolute top-0 w-full flex items-center justify-between p-4 z-10">
-      <span className="hidden md:block text-sm font-medium">astratask.run</span>
+      <span className="hidden md:block text-sm font-medium">astratask.com</span>
 
       <Link href="/">
         <Image
           src="/logo.png"
           alt="astratask logo"
-          width={60}
+          width={100}
           quality={100}
-          height={60}
-          className="md:absolute md:left-1/2 md:top-5 md:-translate-x-1/2"
+          height={100}
+          className="md:absolute md:left-1/2 md:top-1 md:-translate-x-1/2"
         />
       </Link>
 
@@ -32,7 +32,7 @@ export function Header() {
         <ul className="flex items-center gap-4">
           <li>
             <a
-              href="https://github.com/dabisstudio-ai/astratask"
+              href="https://github.com/dabisstudio/astratask"
               className="text-sm px-4 py-2 bg-primary text-secondary rounded-full font-medium"
             >
               Github
@@ -44,14 +44,14 @@ export function Header() {
                 className="text-sm px-4 py-2 bg-secondary text-primary rounded-full font-medium cursor-pointer"
                 asChild
               >
-                <span>Get updates</span>
+                <span>Join the Waitlist</span>
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
                   <DialogTitle>Stay updated</DialogTitle>
                   <DialogDescription>
-                    Subscribe to our newsletter to get the latest news and
-                    updates.
+                    Subscribe to our newsletter to be one of the first to experience
+                    AstraTask’s smart task management system!
                   </DialogDescription>
                 </DialogHeader>
 

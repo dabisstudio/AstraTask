@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "sideEffects": false,
-  "files": ["tailwind.config.ts", "postcss.config.js", "globals.css"],
+  "files": [
+    "tailwind.config.ts",
+    "postcss.config.js",
+    "globals.css"
+  ],
   "scripts": {
     "clean": "rm -rf .turbo node_modules",
     "lint": "biome check .",
@@ -30,6 +34,7 @@
     "./postcss": "./postcss.config.js"
   },
   "dependencies": {
+    "@astratask/ui": "file:",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",

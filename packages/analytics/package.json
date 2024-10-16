@@ -11,8 +11,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@openpanel/nextjs": "^1.0.0",
     "@astratask/logger": "workspace:*",
+    "@openpanel/nextjs": "^1.0.0",
     "@vercel/functions": "^1.4.1"
   },
   "exports": {

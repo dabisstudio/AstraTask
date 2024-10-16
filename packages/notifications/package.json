@@ -1,0 +1,9 @@
+{
+  "name": "@astratask/notifications",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@astratask/notifications": "file:"
+  }
+}

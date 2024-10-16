@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@astratask/logger": "file:",
     "pino": "^9.3.2"
   }
 }

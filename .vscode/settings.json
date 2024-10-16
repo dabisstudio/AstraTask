@@ -23,5 +23,9 @@
   "terminal.integrated.localEchoStyle": "dim",
   "search.exclude": {
     "**/node_modules": true
-  }
+  },
+  "cSpell.words": [
+    "astratask",
+    "nextjs"
+  ]
 }
